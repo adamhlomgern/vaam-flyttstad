@@ -20,7 +20,6 @@
 
     <body>
         <div class="wrapper">
-<div class="gradient-background">
             <!-- Header -->
             <header>
                 <div class="logo">
@@ -28,7 +27,7 @@
                 </div>
                 <nav>
                     <ul class="nav-links">
-                        <li><a href="#services">Tjänster</a></li>
+                        <li><a href="#services-se">Tjänster</a></li>
                         <li><a href="#about">Om oss</a></li>
                         <li><a href="#contact">Kontakt</a></li>
                     </ul>
@@ -65,22 +64,142 @@
                 <p>Vill du nå oss direkt?</p>
                 <a href="#" class="contact-button">Kontakta oss</a>
             </div>
-    </div>
+        </div>
         <div class="hero-image">
             <img src="/bilder/springi-gubbe.png" alt="Springande gubbe med låda">
         </div>
     </div>
 
 </section>
+
+
+<!-- Våra Tjänster -->
+ <section class="services-section">
+    <div class="services-content">
+        <h3>Flytt & städ i Svedala</h3>
+        <h2>Våra tjänster</h2>
+        <div class="service-description"><p>Behöver du hjälp med <strong>flyttstädning</strong> eller <strong>flyttservice</strong> i Svedala? Då har du kommit rätt! Hos oss på Vaam Flytt & Städ AB tar vi hand om allt från <strong>städningen efter flytten</strong> till att <strong>bära och transportera dina saker</strong>, så du slipper stressa. Vi erbjuder även uthyrning av skåpbilar, tält, stolar och bord om du planerar ett event eller en fest.</p></div>
+    </div>
+
+    <div class="services-list">
+        <div class="service-item">
+            <img src="/bilder/bil.png" alt="Flytt ikon" class="service-icon">
+            <div class="service-text">
+                <h4>Flyttjänster</h4>
+                <p class="service-subtitle">Allt du behöver för en enkel och smidig flytt! Vi fixar allt från att packa ihop dina saker till att transportera och packa upp.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="/bilder/borste.png" alt="Städ ikon" class="service-icon">
+            <div class="service-text">
+                <h4>Städtjänster</h4>
+                <p class="service-subtitle">Professionell städning för alla behov. Vi tar hand om både hem och företag och ser till att allt blir skinande rent.</p>
+            </div>
+        </div>
+        <div class="service-item">
+            <img src="/bilder/nyckel.png" alt="Uthyrning ikon" class="service-icon">
+            <div class="service-text">
+                <h4>Uthyrning</h4>
+                <p class="service-subtitle">Behöver du prylar till festen? Vi hyr ut skåpbilar, tält, stolar och allt annat du kan behöva för att fixa till ett lyckat event.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Om oss -->
+
+<section class="about-section">
+    <div class="about-left">
+      <h3>Kontaktuppgifter</h3>
+      <p><strong>Telefon:</strong> <a href="tel:0700365482">070 036 54 82</a></p>
+      <p><strong>E-post:</strong> <a href="mailto:info@vaamflytt.se">info@vaamflytt.se</a></p>
+      <p><strong>Adress:</strong> Lindgatan 9, 233 33 Svedala</p>
+    </div>
+    
+    <div class="about-right">
+      <h2>Om Vaam Flytt & Städ AB</h2>
+      <p>Vi är ett lokalt företag i Svedala som erbjuder flytt- och städtjänster samt uthyrning av utrustning för alla typer av event. Med fokus på service och kvalitet, hjälper vi dig med allt från flyttstädning och transport till uthyrning av skåpbilar, tält och möbler.</p>
+    </div>
+  </section>
+  
+  <div class="contact-bg">
+  <section id="contact" class="contact-section">
+
+    <h2>Vill du ha en offert?</h2>
+    <p>Vill du ha en offert eller vill du att vi ska kontakta dig? Fyll i formuläret så återkommer vi. Det går självklart bra att maila eller ringa också.</p>
+    <div class="contact-info-2">
+        <div class="contact-item-2">
+
+            <a href="tel:0700365482">070 036 54 82</a>
+        </div>
+        <div class="contact-item-2">
+
+            <a href="mailto:info@vaamflytt.se">info@vaamflytt.se</a>
+        </div>
+    </div>
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="8ec757a1-1ed4-4771-8832-b465309c2598">
+
+        <!-- Form Inputs -->
+        <div class="form-group">
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" required placeholder="Ditt namn">
+        </div>
+        
+        <div class="form-group">
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required placeholder="Din e-postadress">
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Ex: Info om vad ni vill ha hjälp med."></textarea>
+        </div>
+
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <!-- Custom Confirmation / Success Page -->
+        <!-- Uncomment if needed -->
+        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+
+        <button type="submit" class="submit-btn">Skicka meddelande</button>
+    </form>
+
+</section>
 </div>
 
 
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="/bilder/logo-1-05.png" alt="Vaam Flytt & Städ AB logotyp" class="footer-logo-img">
+        </div>
 
+        <div class="footer-links">
+            <h4>Snabblänkar</h4>
+            <ul>
+                <li><a href="#tjanster">Våra tjänster</a></li>
+                <li><a href="#omoss">Om oss</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </div>
 
+        <div class="footer-contact">
+            <h4>Kontakt</h4>
+            <p><strong>Telefon:</strong> <a href="tel:0700365482">070 036 5482</a></p>
+            <p><strong>Email:</strong> <a href="mailto:info@vaamflytt.se">info@vaamflytt.se</a></p>
+            <p><strong>Adress:</strong> Lindgatan 9, 233 33 Svedala</p>
+        </div>
+    </div>
 
-
-
-
+    <div class="footer-bottom">
+        <p>&copy; 2024 Vaam Flytt & Städ AB.</p>
+    </div>
+</footer>
 
 
 
