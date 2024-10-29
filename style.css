@@ -390,21 +390,21 @@ nav ul li a {
 
 @media (max-width: 650px) {
     .services-section {
-        flex-direction: column; /* Lägg sektionerna under varandra */
+        flex-direction: column;
         align-items: center;
     }
 
     .services-content, .service-description {
         width: 100%;
-        max-width: 100%; /* Gör textsektionen fullbredd */
-        margin: 0; /* Ta bort eventuell extra marginal */
+        max-width: 100%;
+        margin: 0;
         align-items: center;
     }
 
     .services-list {
         width: 400px;
-        max-width: 100%; /* Gör listsektionen fullbredd */
-        margin-top: 40px; /* Lägger till utrymme mellan beskrivningen och listan */
+        max-width: 100%;
+        margin-top: 40px; 
         margin-left: 10px;
     }
     .service-description {
@@ -421,7 +421,7 @@ nav ul li a {
     justify-content: space-between;
     padding: 80px 60px;
 
-    background-color: #f8f3f2; /* Justera efter din design */
+    background-color: #f8f3f2;
     gap: 20px;
   }
   
@@ -432,7 +432,7 @@ nav ul li a {
   
   .about-left h3, .about-right h2 {
     font-size: 1.5rem;
-    color: #331421; /* Justera efter din design */
+    color: #331421;
     margin-bottom: 15px;
   }
   
@@ -638,7 +638,7 @@ nav ul li a {
 }
 
 .footer-links a:hover, .footer-contact a:hover {
-    color: #3b2a34;
+    color: #d37979;
 }
 
 .footer-bottom {
