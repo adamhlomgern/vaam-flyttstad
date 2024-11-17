@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://vaamflytt.se/#hem</loc>
+    <lastmod>2024-11-17</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://vaamflytt.se/#tjanster</loc>
+    <lastmod>2024-11-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+    <url>
+    <loc>https://vaamflytt.se/#om-oss</loc>
+    <lastmod>2024-11-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://vaamflytt.se/#contakt</loc>
+    <lastmod>2024-11-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+</urlset>

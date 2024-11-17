@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://vaamflytt.se/sitemap.xml

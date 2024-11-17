@@ -308,7 +308,7 @@ nav ul li a {
 /* Services */
 
 .services-section {
-    background-image: url('/bilder/hero-3.png');
+    background-image: url('/bilder/hero-2.png');
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
@@ -318,22 +318,24 @@ nav ul li a {
     align-items: flex-start;
 }
 
+
+
 .services-content {
     margin: 10px 40px;
 }
 
 .services-section h3 {
     font-size: 1.2rem;
-    color: #ffff;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    color: #f1e2e8;
+
 
 }
 .services-section h2 {
     font-size: 2.5rem;
     font-weight: 900;
     margin: 0;
-    color: #331421;
-    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+
 }
 .service-description {
     max-width: 350px;
@@ -344,7 +346,7 @@ nav ul li a {
 .service-description p {
     margin: 0;
     line-height: 1.5;
-    color: #331421;
+    color: #ffffff;
 }
 
 .services-list {
@@ -372,7 +374,7 @@ nav ul li a {
 
 .service-text h4 {
     font-size: 1.2rem;
-    color: #331421;
+    color: #f3e5eb;
     margin: 0;
 }
 
@@ -384,7 +386,7 @@ nav ul li a {
 
 .service-text p {
     font-size: 0.9rem;
-    color: #331421;
+    color: #f3e5eb;
     margin: 0;
 }
 
@@ -481,7 +483,7 @@ nav ul li a {
 }
 
 .contact-bg {
-    background-image: url('/bilder/hero-3.png');
+    background-image: url('/bilder/hero-2.png');
     padding: 40px;
 }
 
